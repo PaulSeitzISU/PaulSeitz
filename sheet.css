@@ -443,7 +443,7 @@ height: auto;
   font-family: "BlackoutMidnight", "Arial Black", sans-serif;
   text-align: center;
   grid-column: span 12;
-  margin-top:;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
