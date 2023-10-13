@@ -124,6 +124,28 @@ text-align: right;
   grid-column: 2 / span 6;
 }
 
+.showpieceTimeFlies {
+  border: 4px solid white;
+  border-radius: 15px;
+  margin-top: 40px;
+  height: 314px;
+  width: auto;
+  background-image: url(img/TimeFlies.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-column: 2 / span 6;
+  transition: background-image .75S;
+}
+
+.showpieceTimeFlies:hover {
+  margin-top: 40px;
+  height: 314px;
+  width: auto;
+  background-image: url(img/TimeFlies.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-column: 2 / span 6;
+}
 
 .showpieceBeeventure {
   border: 4px solid white;
@@ -147,6 +169,7 @@ text-align: right;
   background-repeat: no-repeat;
   grid-column: 2 / span 6;
 }
+
 .showpieceAggricultist {
   border: 4px solid white;
   border-radius: 15px;
@@ -165,6 +188,29 @@ text-align: right;
   height: 314px;
   width: auto;
   background-image: url(img/aggricultist2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-column: 2 / span 6;
+}
+
+.showpieceCongo {
+  border: 4px solid white;
+  border-radius: 15px;
+  margin-top: 40px;
+  height: 314px;
+  width: auto;
+  background-image: url(img/Congo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-column: 2 / span 6;
+  transition: background-image .75S;
+}
+
+.showpieceCongo:hover {
+  margin-top: 40px;
+  height: 314px;
+  width: auto;
+  background-image: url(img/Congo.gif);
   background-size: contain;
   background-repeat: no-repeat;
   grid-column: 2 / span 6;
